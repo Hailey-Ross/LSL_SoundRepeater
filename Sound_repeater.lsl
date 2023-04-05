@@ -48,14 +48,14 @@ default
         llSetTimerEvent(0);
         if(on == TRUE)  {
             llSetTimerEvent(9);
-            //llOwnerSay("starting sound "+(string)sound);
+           //llOwnerSay("starting sound "+(string)sound); //uncomment to turn on messages when enabled/disabled
             if(sound == 1)  llPlaySound(sound1,1);
             if(sound == 2)  llPlaySound(sound2,1);
             if(sound == 3)  llPlaySound(sound3,1);
             if(sound == 4)  llPlaySound(sound4,1);
             if(sound == 5)  llPlaySound(sound5,1);
             if(sound == 6)  llPlaySound(sound6,1);
-           // llOwnerSay("ending sound "+(string)sound);
+           //llOwnerSay("ending sound "+(string)sound); //uncomment to turn on messages when enabled/disabled
             
             sound++;
             if(sound == 7) sound = 1;
